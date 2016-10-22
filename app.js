@@ -11,7 +11,7 @@ var userService = require('./app/modules/user')
 var leastConnDispatcher = require('./app/dispatchers/leastConnDispatcher')
 
 var app = pomelo.createApp()
-app.set('name', 'huomaotv-pomelochat')
+app.set('name', 'pomelochat')
 
 config.init(app.get('env'), {path: './config/config.json'})
 blacklist.init(app.get('env'), app.getServerType(), {path: './config/blacklist.json'})
