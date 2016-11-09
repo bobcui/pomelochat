@@ -44,7 +44,7 @@
                 "host": "127.0.0.1",  
                 "port": 3031, 
                 "clientHost": "0.0.0.0",
-                "clientHostReal": "192.168.186.102",
+                "clientHostReal": "127.0.0.1",
                 "clientPort": 13031, 
                 "frontend": true,
                 "args": ["--max-old-space-size=2048", "--nouse-idle-notification", "--expose-gc"]

@@ -1,7 +1,7 @@
 {
     "development":{
         "id":"master-1",
-        "host":"192.168.186.102",
+        "host":"127.0.0.1",
         "port":3001
     },
     "test":{
